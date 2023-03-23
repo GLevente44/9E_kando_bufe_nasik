@@ -1,0 +1,43 @@
+body {
+    background-color: lightskyblue;
+}
+.h1 {
+    color: dodgerblue;
+    text-align: center;
+}
+
+.nasik img {
+      
+        border: 2px solid cyan;
+        border-radius: 100%;
+        transition: 0.2s;
+        padding: 0.5rem;
+        margin: 10px;
+        max-height: 8vw;
+        min-height: 8vw;
+        max-width: 8vw;
+        min-width: 8vw;
+        object-fit: scale-down;
+        background-color: royalblue;
+        box-shadow: 5px 10px darkcyan;  
+}
+
+.nasik img:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 3px rgb(0, 0, 0), 0 0 25px rgb(62, 101, 187), 0 0 4px rgb(0, 9, 139);
+}
+
+.nasik p {
+    font-weight: bold;
+    display: block;
+    
+}
+
+ .nasik {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ 
